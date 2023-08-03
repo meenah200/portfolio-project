@@ -1,6 +1,6 @@
 :root{
 --hero-bg:linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0.75%, rgba(0, 0, 0, 0.20) 100%),
-  url("../images/background.jpg"),
+  url("/images/bg.png"),
   lightgray 0px -349.249px / 100% 363.584% no-repeat;
   --heading-font-family:'Nunito',
     sans-serif;
@@ -15,7 +15,14 @@ h1{
 p{
   font-family: var(--heading-font-family);
   font-weight: bold;
-  font-size: 24px;
+  font-size: 28px;
+  color:#272142;
+}
+.footer{
+  background-color: #F9F7FE;
+  padding:20px 10px;
+  color:#272142;
+  font-size: 20px;
 }
 
 .hero{
@@ -37,6 +44,7 @@ line-height: normal;
 font-family:var(--heading-font-family);
 font-weight: bold;
 font-size: 18px;
+color:#fff;
 }
 
 @media only screen and (max-width: 576px) {
@@ -54,5 +62,7 @@ font-size: 18px;
     }
   
     p {
+      font-size:12px;
       text-align: center;
+}
 }
