@@ -1,9 +1,41 @@
+:root{
+--hero-bg:linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0.75%, rgba(0, 0, 0, 0.20) 100%),
+  url("../images/bg.png"),
+  lightgray 0px -349.249px / 100% 363.584% no-repeat;
+  --heading-font-family:'Nunito',
+    sans-serif;
+}
+
 h1{
- font-family: 'Playfair Display', serif;
+ font-family:var(--heading-font-family);
  font-weight: bold;
+ font-size: 72px;
 }
 
 p{
-  font-family: 'Poppins', sans-serif;
-  font-weight: normal;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.hero{
+  background: var(--hero-bg);
+  background-size: 100%;
+  padding: 50px 20px;
+  text-align: center;
+  color:#fff;
+}
+
+.hero h1{
+font-family:var(--heading-font-family);
+font-weight: bold;
+font-size: 72px;
+line-height: normal;
+}
+
+.hero p{
+font-family:var(--heading-font-family);
+font-weight: bold;
+font-size: 24px;
+margin:0;
 }
