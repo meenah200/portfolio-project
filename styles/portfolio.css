@@ -2,18 +2,20 @@
 --hero-bg:linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0.75%, rgba(0, 0, 0, 0.20) 100%),
   url("/images/bg.png"),
   lightgray 0px -349.249px / 100% 363.584% no-repeat;
-  --heading-font-family:'Nunito',
+  --font-family:'Nunito',
     sans-serif;
 }
 
+body{
+font-family: var(--font-family);
+}
+
 h1{
- font-family:var(--heading-font-family);
  font-weight: bold;
  font-size: 72px;
 }
 
 p{
-  font-family: var(--heading-font-family);
   font-weight: bold;
   font-size: 28px;
   color:#272142;
@@ -34,30 +36,24 @@ p{
 }
 
 .hero h1{
-font-family:var(--heading-font-family);
 font-weight: bold;
 font-size: 72px;
 line-height: normal;
 }
 
 .hero p{
-font-family:var(--heading-font-family);
 font-weight: bold;
 font-size: 18px;
 color:#fff;
 }
 
-@media only screen and (max-width: 576px) {
+@media(min-width: 576px) {
   .hero {
     background: var(--hero-bg);
+    background-size: auto;
   }
     h1 {
       font-size: 48px;
-      text-align: center;
-    }
-  
-    h2 {
-      font-size: 32px;
       text-align: center;
     }
   
