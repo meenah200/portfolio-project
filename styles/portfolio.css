@@ -1,7 +1,8 @@
 :root{
 --hero-bg:linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0.75%, rgba(0, 0, 0, 0.20) 100%),
   url("/images/bg.png"),
-  lightgray 0px -349.249px / 100% 363.584% no-repeat;
+  lightgray 0px -349.249px / 100% 363.584% ;
+  no-repeat;
   --font-family:'Nunito',
     sans-serif;
 }
@@ -10,16 +11,23 @@ body{
 font-family: var(--font-family);
 }
 
+h1, h4, p{
+font-weight: bold;
+}
+
 h1{
- font-weight: bold;
  font-size: 72px;
 }
 
+h4{
+font-size: 20px;
+}
+
 p{
-  font-weight: bold;
   font-size: 28px;
   color:#272142;
 }
+
 .footer{
   background-color: #F9F7FE;
   padding:20px 10px;
@@ -29,8 +37,8 @@ p{
 
 .hero{
   background: var(--hero-bg);
-  background-size:100% 100%;
-  padding: 50px 20px;
+  background-size:cover;
+  padding: 30px;
   text-align: center;
   color:#fff;
 }
@@ -41,24 +49,30 @@ font-size: 72px;
 line-height: normal;
 }
 
-.hero p{
+.hero h4{
 font-weight: bold;
-font-size: 18px;
+font-size: 20px;
 color:#fff;
 }
 
-@media(max-width: 576px) {
+@media only screen and (max-width: 768px) {
   .hero {
     background: var(--hero-bg);
-    background-size: auto;
   }
     h1 {
+      font-weight: bold;
       font-size: 48px;
       text-align: center;
     }
   
+    h4{
+      font-weight: bold;
+      font-size:18px;
+    }
+
     p {
-      font-size:12px;
+      font-weight: bold;
+      font-size:18px;
       text-align: center;
 }
 }
