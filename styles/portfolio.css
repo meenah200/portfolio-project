@@ -13,7 +13,7 @@ color:#272142;
 
 }
 
-h1, h4, h5{
+h1, h3, h5{
 font-weight: bold;
 }
 
@@ -21,12 +21,23 @@ h1{
  font-size: 72px;
 }
 
+h3{
+  font-size:36px;
+}
+
 h4{
-font-size: 20px;
+font-size: 19px;
+line-height:30px;
+opacity:0.9;
 }
 
 h5{
   font-size: 28px;
+}
+
+p{
+  font-size: 18px;
+  line-height: 30px;
 }
 
 .footer{
@@ -46,13 +57,11 @@ h5{
 
 .hero h1{
 font-weight: bold;
-font-size: 72px;
 line-height: normal;
 }
 
 .hero h4{
 font-weight: bold;
-font-size: 20px;
 color:#fff;
 }
 
@@ -77,7 +86,7 @@ font-weight: bold;
 margin: 70px 0 40px 0;
 }
 
-.about-section h5{
+.about-section h4{
 font-size: 18px;
 font-weight: 400;
 line-height: 30px;
@@ -92,29 +101,27 @@ line-height: 30px;
   font-weight: 700;
 }
 
-.about-section2 h5{
+.about-section2 h4{
 font-size:18px;
 font-weight: 700;
 }
 
 .about-section2 small{
   font-style: 15px;
-  font-weight: 400;
+
 }
 
 .recipe-listing{
   padding:80px 40px;
-  max-width:70%;
+  max-width:60%;
 }
 .dottedUnderline{
   border: 1px dashed #67D5D2;
 }
 
-.recipe-image{
-  display: block;
-  margin:0 auto;
+.listing1{
+  padding-right: 80px;
 }
-
 
 @media (max-width: 900px) {
   .hero {
@@ -122,8 +129,12 @@ font-weight: 700;
   }
     h1 {
       font-weight: bold;
-      font-size: 48px;
+      font-size: 36px;
       text-align: center;
+    }
+
+    h3{
+      font-size:18px;
     }
   
     h4{
@@ -143,5 +154,5 @@ font-weight: 700;
 
     .about-section h1{
       margin:0;
-}
+}    
 }
