@@ -21,18 +21,21 @@ h1{
  font-size: 72px;
 }
 
+h2{
+  font-size: 64px;
+}
+
 h3{
   font-size:36px;
 }
 
 h4{
-font-size: 19px;
+font-size: 28px;
 line-height:30px;
-opacity:0.9;
 }
 
 h5{
-  font-size: 28px;
+  font-size: 24px;
 }
 
 p{
@@ -119,33 +122,39 @@ font-weight: 700;
   border: 1px dashed #67D5D2;
 }
 
-.listing1{
-  padding-right: 80px;
+.table{
+  opacity: 0.9;
+    word-spacing: 300px;
 }
 
 @media (max-width: 900px) {
   .hero {
     background: var(--hero-bg);
   }
-    h1 {
+
+    h1,h2,h3,h4, h5{
       font-weight: bold;
-      font-size: 36px;
       text-align: center;
+    }
+    h1 {
+      font-size: 45px;
+    }
+
+    h2{
+    font-size:28px;
     }
 
     h3{
-      font-size:18px;
+      font-size:20px;
     }
+
   
     h4{
-      font-weight: bold;
       font-size:18px;
     }
 
     h5 {
-      font-weight: bold;
       font-size:18px;
-      text-align: center;
 }
 
     .about-hero{
@@ -155,4 +164,11 @@ font-weight: 700;
     .about-section h1{
       margin:0;
 }    
+.table{
+  word-spacing: 60px;
+}
+
+.recipe-listing{
+  max-width: fit-content;
+}
 }
