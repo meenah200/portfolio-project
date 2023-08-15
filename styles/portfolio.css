@@ -124,7 +124,7 @@ font-weight: 700;
 
 .table{
   opacity: 0.9;
-    word-spacing: 300px;
+  word-spacing: 300px;
 }
 
 @media (max-width: 900px) {
@@ -132,7 +132,7 @@ font-weight: 700;
     background: var(--hero-bg);
   }
 
-    h1,h2,h3,h4, h5{
+    h1,h2,h3,h4{
       font-weight: bold;
       text-align: center;
     }
@@ -147,7 +147,6 @@ font-weight: 700;
     h3{
       font-size:20px;
     }
-
   
     h4{
       font-size:18px;
@@ -165,7 +164,7 @@ font-weight: 700;
       margin:0;
 }    
 .table{
-  word-spacing: 60px;
+  word-spacing: 190px;
 }
 
 .recipe-listing{
