@@ -22,7 +22,7 @@ h1{
 }
 
 h2{
-  font-size: 64px;
+  font-size: 60px;
 }
 
 h3{
@@ -74,27 +74,31 @@ color:#fff;
   padding: 20px 30px;
 }
 
-.about-section{
-  width: 900px;
-  height: 450px;
+.section-hero{
+  max-width:60%;
 }
 
 .about-section-content{
   margin: 30px;
 }
 
-.about-section h2{
-  margin: 70px 0 40px 0;
+.section-hero h2{
+margin-top: 60px;
 }
 
-.about-section h4{
+.section-hero h4{
 font-size: 18px;
 font-weight: 400;
 line-height: 30px;
 }
 
+.section-hero p{
+text-transform:uppercase;
+color:#662EED;
+}
+
 .about-section2 small{
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .recipe-listing{
@@ -109,6 +113,7 @@ line-height: 30px;
   opacity: 0.9;
   word-spacing: 320px;
 }
+
 
 @media (max-width: 900px) {
   .hero {
@@ -143,7 +148,7 @@ line-height: 30px;
       text-align: center;
 }
 
-    .about-section h1{
+    .section-hero h1{
       margin:0;
 }    
 .table{
