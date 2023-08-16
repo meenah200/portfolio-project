@@ -43,6 +43,40 @@ p{
   line-height: 30px;
 }
 
+nav{
+  padding:20px 0;
+}
+
+nav ul{
+  margin:0;
+  padding:0;
+}
+
+nav li{
+  display:inline-flex;
+  list-style:none;
+  line-height:45px;
+  margin-left: 20px;
+}
+
+nav a{
+  text-decoration: none;
+  color:#272142;
+  transition: all 200ms ease-in-out;
+}
+
+nav a:hover, nav li.active a{
+  color:#662EED;
+}
+.home-section{
+  padding:50px;
+  margin-top: 50px;
+}
+
+.logo {
+  max-height: 40px;
+}
+
 .footer{
   background-color: #F9F7FE;
   padding:20px 10px;
@@ -59,13 +93,16 @@ p{
 }
 
 .hero h1{
+font-size: 72px;
 font-weight: bold;
 line-height: normal;
 }
 
 .hero h4{
+  font-size: 20px;
 font-weight: bold;
 color:#fff;
+line-height: 35px;;
 }
 
 .about-hero{
@@ -116,6 +153,7 @@ color:#662EED;
 
 
 @media (max-width: 900px) {
+ 
   .hero {
     background: var(--hero-bg);
   }
@@ -153,6 +191,9 @@ color:#662EED;
 }    
 .table{
   word-spacing: 190px;
+}
+.logo{
+  display: none;
 }
 
 .recipe-listing{
