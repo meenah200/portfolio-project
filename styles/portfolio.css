@@ -213,6 +213,12 @@ color:#662EED;
     .recipe-listing{
     max-width:100%;
   }
+ 
+  footer .social-links a{
+    display:block; 
+}
 
-
+ footer .footer-logo{
+  max-height: 30px;
+ }
 }
