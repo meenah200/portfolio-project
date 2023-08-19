@@ -68,20 +68,36 @@ nav a{
 nav a:hover, nav li.active a{
   color:#662EED;
 }
+
+footer .social-links a {
+  margin: 0 20px;
+  text-decoration: none;
+  color: #272142;
+  font-size: 16px;
+}
+
+footer .social-links a:hover {
+  color: #662EED;
+}
+
+footer .copyright {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+footer {
+  background-color: #F9F7FE;
+  padding: 20px 10px;
+  font-size: 16px;
+}
+
 .home-section{
-  padding:50px;
-  margin-top: 50px;
+  margin-top:30px;
+  padding: 40px;
 }
 
 .logo {
   max-height: 40px;
-}
-
-.footer{
-  background-color: #F9F7FE;
-  padding:20px 10px;
-  color:#272142;
-  font-size: 20px;
 }
 
 .hero{
@@ -151,13 +167,11 @@ color:#662EED;
   word-spacing: 320px;
 }
 
+.steps{
+  color:#F65282;
+}
 
 @media (max-width: 900px) {
- 
-  .hero {
-    background: var(--hero-bg);
-  }
-
     h1,h2,h3,h4{
       font-weight: bold;
       text-align: center;
@@ -189,14 +203,16 @@ color:#662EED;
     .section-hero h1{
       margin:0;
 }    
-.table{
-  word-spacing: 190px;
+    .table{
+     word-spacing: 95px;
 }
-.logo{
-  display: none;
+    .logo{
+     display: none;
 }
 
-.recipe-listing{
-  max-width: fit-content;
-}
+    .recipe-listing{
+    max-width:100%;
+  }
+
+
 }
