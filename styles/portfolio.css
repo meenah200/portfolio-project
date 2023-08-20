@@ -98,13 +98,12 @@ footer {
 }
 
 .hero h1{
-font-size: 72px;
 font-weight: bold;
 line-height: normal;
 }
 
 .hero h4{
-  font-size: 20px;
+font-size: 20px;
 font-weight: bold;
 color:#fff;
 line-height: 35px;;
@@ -136,16 +135,17 @@ line-height: 30px;
 }
 
 .about-section2{
-  margin-bottom: 30px;
+  margin-bottom: 80px;
 }
 
 .about-section2 small{
   font-size: 16px;
+  line-height: 30px;
 }
 
 .recipe-listing{
   padding:80px 40px;
-  max-width:70%;
+  max-width:65%;
 }
 .dottedUnderline{
   border: 1px dashed #67D5D2;
@@ -153,7 +153,7 @@ line-height: 30px;
 
 .table{
   opacity: 0.9;
-  word-spacing: 320px;
+  word-spacing: 340px;
 }
 
 .steps{
