@@ -69,17 +69,6 @@ nav a:hover, nav li.active a{
   color:#662EED;
 }
 
-footer .social-links a {
-  margin: 0 20px;
-  text-decoration: none;
-  color: #272142;
-  font-size: 16px;
-}
-
-footer .social-links a:hover {
-  color: #662EED;
-}
-
 footer .copyright {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
@@ -121,7 +110,7 @@ color:#fff;
 line-height: 35px;;
 }
 
-.about-hero{
+.content-hero{
   text-align: center;
   margin: 20px;
   padding: 20px 30px;
@@ -180,6 +169,17 @@ line-height: 30px;
   text-decoration: none;
 }
 
+.social-links a {
+  margin: 0 20px;
+  text-decoration: none;
+  color: #272142;
+  font-size: 16px;
+}
+
+.social-links a:hover {
+  color: #662EED;
+}
+
 @media (max-width: 900px) {
     h1,h2,h3,h4{
       font-weight: bold;
@@ -208,6 +208,9 @@ line-height: 30px;
     .about-hero{
       text-align: center;
 }
+.section-hero{
+  max-width:80%;
+}
 
     .section-hero h1{
       margin:0;
@@ -221,9 +224,13 @@ line-height: 30px;
 
     .recipe-listing{
     max-width:100%;
+    padding:20px;
   }
 
- 
+.section-content{
+  margin:0;
+}
+  
   footer .social-links a{
     display:block; 
 }
